@@ -1,0 +1,20 @@
+{
+  "name": "nc-plugin-tremolo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A NetComposer insert plugin: a tremolo (rate, depth, shape). The template for new plugins.",
+  "license": "MIT",
+  "author": "Peter Semmelhack (https://psem.me/)",
+  "type": "module",
+  "scripts": {
+    "check": "nc-fx-check plugin",
+    "serve": "node tools/serve.mjs plugin 5990"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@netcomposer/nc-fx": "github:netcomposer-art/nc-fx#ca2d4f2d23ac3fa94e119155cb2f978a9941b2b2",
+    "playwright": "1.56.1"
+  }
+}
